@@ -5,7 +5,7 @@ var round_cur = 1;
 var round_max = 20;
 var count = 0;
 
-function rand(min, max) {
+function rand( min, max ) {
     return Math.floor(Math.random() * (max - min + 1) ) + min;
 }
 
